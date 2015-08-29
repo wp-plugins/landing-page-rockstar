@@ -1,4 +1,4 @@
-=== Landing Page Rockstar ===
+=== Landing Page Rockstar - BETA ===
 Contributors: dusthazard
 Tags: landing page, squeeze page, optin form
 Donate link: http://www.ericsestimate.com/
