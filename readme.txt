@@ -12,6 +12,10 @@ Create beautiful, high converting landing pages in seconds. Plugin includes pre-
 
 == Description ==
 
+**Please Note:** This is a beta testing version of this plugin. Therefore there may be some bugs that you come across. Please report any bugs through my [contact form here](http://www.ericsestimate.com/contact-eric/ "Contact Form").
+
+**Your feedback will help me to improve the plugin in future releases!**
+
 == Installation ==
 
 1. Upload the entire lprockstar directory to the `/wp-content/plugins/` directory
