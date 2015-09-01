@@ -4,7 +4,7 @@ Tags: landing page, squeeze page, optin form
 Donate link: http://www.ericsestimate.com/
 Requires at least: 4.0
 Tested up to: 4.3
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,7 +26,10 @@ Create beautiful, high converting landing pages in seconds. Plugin includes pre-
 
 == Screenshots ==
 
-== Changelog ==.
+== Changelog ==
+
+= 0.2 =
+* Fixed a bug where the plugin directory name was not auto-populating
 
 = 0.1 =
 * Plugin Creation.

@@ -417,7 +417,7 @@ class cmb_Meta_Box_types {
 				  // Script to control what happens when a theme is selected
 				  
 				  $output.= '<script>var inputName = "'.$this->_id().'";var pluginsURL = "'.plugins_url().'";var pickedThemeExt = "'.$pickedtheme_ext.'";var pickedTheme = "'.$pickedtheme.'";</script>';
-          $output.= '<script src="'.plugins_url().'/lprockstar/includes/admin_js.js"></script>';
+          $output.= '<script src="'.plugins_url().'/landing-page-rockstar/includes/admin_js.js"></script>';
 
           $output .= '<input name="' . $this->_id() . '" id="' . $this->_id() . '" type="hidden" value="' . $pickedtheme . '" />';
           

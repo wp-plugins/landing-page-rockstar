@@ -37,7 +37,7 @@ function lprockstar_metaboxes( array $meta_boxes ) {
                 'id' => $prefix . 'themeoption',
                 'type' => 'theme_choice',
                 'theme' => '0',
-                'std' => 'lprockstar/landertemplates/template-1_1.php'
+                'std' => 'landing-page-rockstar/landertemplates/template-1_1.php'
             )
         )
     );

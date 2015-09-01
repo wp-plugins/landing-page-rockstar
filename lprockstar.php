@@ -3,7 +3,7 @@
 Plugin Name: Landing Page Rockstar
 Plugin URI: http://www.lprockstar.com
 Description: Easily create Wordpress landing pages and optin pages for your website.
-Version: 1.03
+Version: 0.2
 Author: Eric Sloan
 Author URI: http://www.ericsestimate.com
 License: GPL2
@@ -112,8 +112,8 @@ function get_landingpage_header($templateid,$headercode,$customstyles,$title) {
         
         <?php wp_head(); ?>
 
-        <link rel="stylesheet" href="<?php echo plugins_url(); ?>/lprockstar/landertemplates/css/normalize.css">
-        <link rel="stylesheet" href="<?php echo plugins_url(); ?>/lprockstar/landertemplates/css/main.css">
+        <link rel="stylesheet" href="<?php echo plugins_url(); ?>/landing-page-rockstar/landertemplates/css/normalize.css">
+        <link rel="stylesheet" href="<?php echo plugins_url(); ?>/landing-page-rockstar/landertemplates/css/main.css">
         <link rel="stylesheet" href="<?php echo plugins_url(); ?>/<?php echo substr($templateid,0,strpos($templateid,"template-")); ?>css/<?php echo substr($templateid,strpos($templateid,"template-"),-4); ?>.css">
         
          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -156,7 +156,7 @@ add_action( 'admin_head', 'wpt_lprs_icons' );
 function wpt_lprs_icons() {
     ?>
     <style type="text/css" media="screen">
-      #menu-posts-landingpage .wp-menu-image {background: url(<?php echo plugins_url(); ?>/lprockstar/lprs-icon.png) no-repeat 0px 0px !important;}
+      #menu-posts-landingpage .wp-menu-image {background: url(<?php echo plugins_url(); ?>/landing-page-rockstar/lprs-icon.png) no-repeat 0px 0px !important;}
           #menu-posts-landingpage .wp-menu-image:before {content: normal!important;}
     </style>
 <?php }
